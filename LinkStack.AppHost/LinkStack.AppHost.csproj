@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.5.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>bdb89a18-db98-47bd-a922-1a7dd298f809</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinkStack.Api\LinkStack.Api.csproj" />
+    <ProjectReference Include="..\LinkStack.CLI\LinkStack.CLI.csproj" />
+    <ProjectReference Include="..\LinkStack.Worker\LinkStack.Worker.csproj" />
+  </ItemGroup>
+
+</Project>

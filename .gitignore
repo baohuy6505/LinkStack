@@ -1,0 +1,75 @@
+## =========================
+## Visual Studio / VS Code
+## =========================
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## =========================
+## Build results
+## =========================
+bin/
+obj/
+out/
+
+## =========================
+## ASP.NET Core
+## =========================
+appsettings.Development.json
+appsettings.Local.json
+
+## =========================
+## Logs
+## =========================
+*.log
+logs/
+
+## =========================
+## OS files
+## =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## =========================
+## Rider / JetBrains
+## =========================
+.idea/
+*.sln.iml
+
+## =========================
+## NuGet
+## =========================
+*.nupkg
+packages/
+.nuget/
+.nuget/packages/
+
+## =========================
+## Publish output
+## =========================
+publish/
+wwwroot/lib/
+
+## =========================
+## Test results
+## =========================
+TestResults/
+
+## =========================
+## Database / Secrets
+## =========================
+*.mdf
+*.ldf
+*.db
+*.sqlite
+secrets.json
+
+## =========================
+## Environment files
+## =========================
+.env
+.env.*
