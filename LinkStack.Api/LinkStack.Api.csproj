@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LinkStack.Core\LinkStack.Core.csproj" />
+    <ProjectReference Include="..\LinkStack.Application\LinkStack.Application.csproj" />
+    <ProjectReference Include="..\LinkStack.Infrastructure\LinkStack.Infrastructure.csproj" />
     <ProjectReference Include="..\LinkStack.ServiceDefaults\LinkStack.ServiceDefaults.csproj" />
   </ItemGroup>
 

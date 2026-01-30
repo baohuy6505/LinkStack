@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.2.11415.280 d18.0
+VisualStudioVersion = 18.2.11415.280
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Shared", "01.Shared", "{16168DD2-358F-474D-A5DE-2E864BF3ACBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkStack.ServiceDefaults", "LinkStack.ServiceDefaults\LinkStack.ServiceDefaults.csproj", "{6577783F-DF2A-4190-AC59-667CC6C4A6B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkStack.Core", "LinkStack.Core\LinkStack.Core.csproj", "{E8981F79-9CC4-47B5-A644-591E1036A681}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkStack.Domain", "LinkStack.Core\LinkStack.Domain.csproj", "{E8981F79-9CC4-47B5-A644-591E1036A681}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services", "{F2D8CB91-45EB-4A9E-90B2-D8A9E8A80BA2}"
 EndProject
@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkStack.Application", "LinkStack.Application\LinkStack.Application.csproj", "{5D71393E-CE47-4A07-97E0-550BFC71D24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkStack.Infrastructure", "LinkStack.Infrastructure\LinkStack.Infrastructure.csproj", "{C4C573D3-BA23-46A6-8960-617CF85799BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +60,14 @@ Global
 		{386DC264-271D-46A6-B5B5-A30F1D706613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386DC264-271D-46A6-B5B5-A30F1D706613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{386DC264-271D-46A6-B5B5-A30F1D706613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D71393E-CE47-4A07-97E0-550BFC71D24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D71393E-CE47-4A07-97E0-550BFC71D24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D71393E-CE47-4A07-97E0-550BFC71D24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D71393E-CE47-4A07-97E0-550BFC71D24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C573D3-BA23-46A6-8960-617CF85799BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C573D3-BA23-46A6-8960-617CF85799BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C573D3-BA23-46A6-8960-617CF85799BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C573D3-BA23-46A6-8960-617CF85799BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +78,8 @@ Global
 		{31D34405-7DE8-4144-AED9-4506250202D0} = {F2D8CB91-45EB-4A9E-90B2-D8A9E8A80BA2}
 		{BDFB3103-8315-4A07-9E90-7DA581A98B54} = {F2D8CB91-45EB-4A9E-90B2-D8A9E8A80BA2}
 		{8308F552-DF1B-4127-9BD1-1154F981F700} = {B39B6428-15A5-40ED-AE0B-FB09C039F7BE}
+		{5D71393E-CE47-4A07-97E0-550BFC71D24C} = {16168DD2-358F-474D-A5DE-2E864BF3ACBD}
+		{C4C573D3-BA23-46A6-8960-617CF85799BF} = {16168DD2-358F-474D-A5DE-2E864BF3ACBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6DE09BB-49B4-414C-92DA-98AF531D635B}
